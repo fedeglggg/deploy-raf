@@ -62,11 +62,11 @@ elif enviroment == "dev":
 
 # Directories (add yours)
 project_directory = ""
-backend_directory = ""
-frontend_directory = ""
+backend_folder = ""
+frontend_folder = ""
 
 cd_backend = f'cd {project_directory}/{enviroment}/{backend_folder}'
-cd_frontend = f'cd {project_directory}/{enviroment}/{frontend_directory}'
+cd_frontend = f'cd {project_directory}/{enviroment}/{frontend_folder}'
 
 # Terminal command to execute
 yarn_build = 'yarn run build'
